@@ -50,4 +50,6 @@ export function resolveLanguage(candidate: unknown): SupportedLanguage {
     }
 
     return detectBrowserLanguage();
+
+    return 'en';
 }
